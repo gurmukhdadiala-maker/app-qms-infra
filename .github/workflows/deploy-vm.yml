@@ -25,15 +25,15 @@ on:
         default: Standard_B2s
         required: true
       vm_name:
-        description: "VM name, e.g. vm-qms-dev-01"
+        description: "VM name"
         type: string
         required: true
       cost_center:
-        description: "Cost centre, e.g. CC-104233"
+        description: "Cost centre"
         type: string
         required: true
       app_id:
-        description: "Application ID, e.g. APP-20417"
+        description: "Application ID"
         type: string
         required: true
 
